@@ -88,8 +88,10 @@ function waitAndResponce(inputText) {
             break;
         case "hackerrank":
             sendTextMessage("You can view my hackerrank badges by going to this link: https://drive.google.com/drive/folders/11laf84nuMzUJWFSh7ExySyPOnBFmR0Jz?usp=sharing");
+            break;
         case "elab":
             sendTextMessage("You can view my elab profile by going to this link: https://drive.google.com/drive/folders/1fFow-lJrwIvBvskieVFzJ1AOWE0K4mOB?usp=sharing");
+            break;
         case "clear":
             clearChat();
             break;
