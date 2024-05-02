@@ -87,10 +87,10 @@ function waitAndResponce(inputText) {
             sendTextMessage(addressString);
             break;
         case "hackerrank":
-            sendTextMessage("You can view my hackerrank badges by going to this link: https://drive.google.com/drive/folders/11laf84nuMzUJWFSh7ExySyPOnBFmR0Jz?usp=sharing");
+            sendTextMessage("You can view my hackerrank badges by going to this link: <a class='alink' target='_blank' href='https://drive.google.com/drive/folders/11laf84nuMzUJWFSh7ExySyPOnBFmR0Jz?usp=sharing'>HACKERRANK</a>");
             break;
         case "elab":
-            sendTextMessage("You can view my elab profile by going to this link: https://drive.google.com/drive/folders/1fFow-lJrwIvBvskieVFzJ1AOWE0K4mOB?usp=sharing");
+            sendTextMessage("You can view my elab profile by going to this link: <a class='alink' target='_blank' href='https://drive.google.com/drive/folders/1fFow-lJrwIvBvskieVFzJ1AOWE0K4mOB?usp=sharing'>ELAB</a>");
             break;
         case "clear":
             clearChat();
