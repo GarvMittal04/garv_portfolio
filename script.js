@@ -75,18 +75,21 @@ function waitAndResponce(inputText) {
             }, 2000);
             break;
         case "help":
-            sendTextMessage("<span class='sk'>Send Keyword to get what you want to know about me...<br>e.g<br><span class='bold'>'skills'</span> - to know my skills<br><span class='bold'>'education'</span> - to get my education details<br><span class='bold'>'address'</span> - to get my address<br><span class='bold'>'contact'</span> - to get ways to connect with me<br><span class='bold'>'projects'</span> - to get details of my projects<br><span class='bold'>'clear'</span> - to clear conversation<br><span class='bold'>'about'</span> - to know about this site</span>");
+            sendTextMessage("<span class='sk'>Send Keyword to get what you want to know about me...<br>e.g<br><span class='bold'>'skills'</span> - to know my skills<br><span class='bold'>'education'</span> - to get my education details<br><span class='bold'>'elab'</span> - to get my elab profile<br><span class='bold'>'hackerrank'</span> - to get my hackerrank profile<br><span class='bold'>'address'</span> - to get my address<br><span class='bold'>'contact'</span> - to get ways to connect with me<br><span class='bold'>'projects'</span> - to get details of my projects<br><span class='bold'>'clear'</span> - to clear conversation<br><span class='bold'>'about'</span> - to know about this site</span>");
             break;
         case "skills":
             sendTextMessage("<span class='sk'>I am currently pursuing B.Tech degree in Computer Science Engineering.<br><br>I can comfortably write code in following languages :<br><span class='bold'>Java<br>C++<br>C<br>Python<br>CSS<br>HTML</span><br><br>I've experiance with following frameworks :<span class='bold'><br>ReactJs<br>Figma</span><br><br>I use <span class='bold'>Arch Linux</span> as daily driver on my Asus Tuf A17<br>OS:Arch Linux<br>DE:Gnome(More often) Kde(often)<br>Favourite IDE:VSCode</span>");
             break;
-
         case "education":
             sendTextMessage("I am currently pusuing B.Tech degree in Computer Science Engineering from SRM Institute of Science and Technology<br>Passing Year : 2026<br><br>I have completed my secondary school from KL International School<br>Passing Year:2022<br>Result:83.73%<br>");
             break;
         case "address":
             sendTextMessage(addressString);
             break;
+        case "hackerrank":
+            sendTextMessage("You can view my hackerrank badges by going to this link: https://drive.google.com/drive/folders/11laf84nuMzUJWFSh7ExySyPOnBFmR0Jz?usp=sharing");
+        case "elab":
+            sendTextMessage("You can view my elab profile by going to this link: https://drive.google.com/drive/folders/1fFow-lJrwIvBvskieVFzJ1AOWE0K4mOB?usp=sharing");
         case "clear":
             clearChat();
             break;
