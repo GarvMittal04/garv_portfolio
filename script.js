@@ -77,7 +77,7 @@ function waitAndResponce(inputText) {
             sendTextMessage("<span class='sk'>I am currently pursuing B.Tech degree in Computer Science Engineering.<br><br>I can comfortably write code in following languages :<br><span class='bold'>Java<br>C++<br>C<br>Python<br>CSS<br>HTML</span><br><br>I've experiance with following frameworks :<span class='bold'><br>ReactJs<br></span><br><br>I use <span class='bold'>Windows</span> as daily driver on my Asus Tuf A17<br>OS:Windows<br>Favourite IDE:VSCode</span>");
             break;
         case "education":
-            sendTextMessage("I am currently pusuing B.Tech degree in Computer Science Engineering from SRM Institute of Science and Technology<br>Passing Year : 2026<br><br>CGPA(5th SEM) : 7.12<br><br>I have completed my 12th from Vanasthali Public Sr. Sec. School<br>Passing Year:2022<br>Result:70.6%<br><br>I have completed my 10th from K.L.International School<br>Passing Year:2020<br>Result:71.2%<br>");
+            sendTextMessage("I am currently pusuing B.Tech degree in Computer Science Engineering from SRM Institute of Science and Technology,Ktr,Chennai(TN)<br>Passing Year : 2026<br><br>CGPA(5th SEM) : 7.12<br><br>I have completed my 12th from Vanasthali Public Sr. Sec. School,Meerut(UP)<br>Passing Year:2022<br>Result:70.6%<br><br>I have completed my 10th from K.L.International School,Meerut(UP)<br>Passing Year:2020<br>Result:71.2%<br>");
             break;
         case "address":
             sendTextMessage(addressString);
